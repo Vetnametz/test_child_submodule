@@ -26,6 +26,7 @@ class App extends Component {
           <div key={user.id}>{user.username}</div>
         )}
         <p>just to test submodule update</p>
+        <p>just to test submodule update from new branch</p>
       </div>
     );
   }
