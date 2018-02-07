@@ -25,6 +25,7 @@ class App extends Component {
         {this.state.users.map(user =>
           <div key={user.id}>{user.username}</div>
         )}
+        <p>just to test submodule update</p>
       </div>
     );
   }
